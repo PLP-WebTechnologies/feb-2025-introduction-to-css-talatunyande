@@ -1,0 +1,86 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: teal;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Navigation */
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: teal;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Image Styling */
+.image {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 3px solid #ccc;
+}
+
+/* Section Headings */
+section h2 {
+    color: darkslateblue;
+    border-bottom: 2px solid teal;
+    padding-bottom: 5px;
+}
+
+/* Form styling */
+form {
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: teal;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: darkcyan;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: gray;
+    font-size: 0.9em;
+}
